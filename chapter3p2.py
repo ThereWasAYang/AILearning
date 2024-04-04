@@ -57,4 +57,4 @@ for epoch in range(num_epochs):
         train_l = loss(net(features, w, b), labels)
         print(f'epoch {epoch +1}, loss {float(train_l.mean()):f}')
 
-print('test 2227')
+print('test 2228')
