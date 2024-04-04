@@ -56,3 +56,5 @@ for epoch in range(num_epochs):
     with torch.no_grad():
         train_l = loss(net(features, w, b), labels)
         print(f'epoch {epoch +1}, loss {float(train_l.mean()):f}')
+
+print('test 2227')
