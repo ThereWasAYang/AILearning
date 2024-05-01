@@ -44,7 +44,7 @@ def sgd(params, lr, batch_size):
             param.grad.zero_()
 
 lr = 0.03
-num_epochs = 3
+num_epochs = 10
 net = linreg
 loss = squared_loss
 
